@@ -36,6 +36,10 @@ li {
     display: inline-block;
 }
 
+.header_content a:hover {
+  color: #EBAD51;  
+}
+
 .shop_header {
     width: 207px;
     height: 57px;
@@ -44,6 +48,11 @@ li {
     color: #ffffff;
     background-color: #b47b48;
     margin-top: 33px;
+    
+}
+
+.shop_header:hover {
+    background-color: #EBAD51;
 }
 
 .inform h1 {
@@ -75,6 +84,11 @@ li {
 
     display: flex;
 }
+
+.card:hover {
+    background-image: linear-gradient(90deg, #926B33, #EBAD51);
+  }
+  
 
 .card_content_header h6 {
     font-family: Inter;
@@ -207,6 +221,10 @@ nav {
     line-height: 31.37px;
     color: #ffffff;
     margin-top: 9px;
+}
+
+.product_card button:hover {
+    background-color: #EBAD51;
 }
 
 .firstt {
@@ -380,10 +398,14 @@ color: #ffffff;
 margin-top: 65px;
 }
 
+.where h6:hover {
+    color: #EBAD51;
+}
+
 .text_where {
     display: flex;
     justify-content: space-between;
-    text-align:left;
+    text-align:center;
     margin-top: 44px;
 }
 
@@ -413,10 +435,6 @@ width: 325px;
 }
 
 .uno h6 {
-    font-family: Inter;
-font-size: 20px;
-font-weight: 300;
-line-height: 24.2px;
 margin-top: 16px;
 }
 
@@ -425,7 +443,11 @@ margin-top: 16px;
     font-size: 24px;
     font-weight: 300;
     line-height: 29.05px;
-    
+    color: #ffffff;
+}
+
+.footercontent h6:hover {
+    color: #EBAD51;
 }
 
 span {
@@ -433,8 +455,10 @@ span {
 font-size: 20px;
 font-weight: 100;
 line-height: 24.2px;
-
-
+color: #ffffff;
+}
+span:hover {
+    color: #EBAD51;
 }
 .span {
     display: flex;
@@ -444,7 +468,7 @@ margin-top: 85px;
 .foter {
     display: flex;
     justify-content: space-between;
-    text-align:left;
+    text-align:center;
 }
 
 .formargin {
