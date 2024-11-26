@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    background-color: #202023;
+}
+
+header {
+    background: url("./img/photo_2022-06-05_13-14-26\ 1\ \(2\).png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1049px;
+}
+
+.header_content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    width: 558px;
+}
+
+li {
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 29.05px;
+    text-align: left;
+    list-style-type: none;
+    margin: 0px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.shop_header {
+    width: 207px;
+    height: 57px;
+    border-radius: 17px;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #b47b48;
+    margin-top: 33px;
+}
+
+.inform h1 {
+    font-size: 70px;
+    font-weight: 200;
+    line-height: 84.72px;
+    color: #ffffff;
+    width: 561px;
+    margin-top: 70px;
+}
+
+.inform p {
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 25.41px;
+    text-align: left;
+    text-underline-position: from-font;
+    color: #ffffff;
+    width: 570.25px;
+    margin-top: 22px;
+}
+
+.card {
+    width: 310px;
+    height: 225px;
+
+    background-image: linear-gradient(90deg, #151515, #272727);
+
+    display: flex;
+}
+
+.card_content_header h6 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 29.05px;
+}
+
+.card_content_header p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    margin-top: 13px;
+}
+
+.card_content_header button {
+    width: 79px;
+    height: 34px;
+    background: #c85312;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19.36px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 35px;
+}
+
+.card_content_header {
+    text-align: center;
+    color: #ffffff;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_header {
+    width: 160px;
+}
+
+.product_cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 125px;
+}
+
+.home_discribe {
+    width: 100%;
+}
+
+.card_img_header {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_content a {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 29.05px;
+    text-align: left;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav {
+    padding-top: 55px;
+}
+
+.nav_ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu h2 {
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 100;
+    line-height: 77.45px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.menu {
+    width: 100%;
+    height: 775px;
+}
+
+.product_cards_menu {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.product_card {
+    width: 328px;
+    text-align: center;
+}
+
+.menu_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_h6_img {
+    width: 328px;
+    height: 229px;
+    border: 1px solid #ffffff;
+}
+
+.product_card button {
+    width: 160px;
+    height: 41px;
+
+    border-radius: 17px;
+    background-color: #b47b48;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25.92px;
+    font-weight: 800;
+    line-height: 31.37px;
+    color: #ffffff;
+    margin-top: 9px;
+}
+
+.firstt {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 18px;
+}
+
+.secondd {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7px;
+}
+
+.menu h6 {
+    font-family: Inter;
+    font-size: 25.92px;
+    font-weight: 800;
+    line-height: 31.37px;
+    color: #ffffff;
+}
+
+.why h4 {
+    font-family: Italiana;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56.54px;
+    color: #ffffff;
+    width: 735px;
+    padding-top: 55px;
+}
+
+.why_content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.why {
+    width: 100%;
+    background: url("./img/fonchleb.png") no-repeat;
+    background-size: cover;
+    height: 580px;
+}
+
+.why h6 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    margin-top: 10px;
+}
+
+.order_why {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 132px;
+    color: #ffffff;
+}
+
+.order_card {
+    text-align: center;
+}
+
+.recept li {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    color: #ffffff;
+}
+
+.ol_about {
+    width: 292.1px;
+    height: 198.46px;
+    background: #626263;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.about {
+    width: 100%;
+    height: 890px;
+    background: url("./img/textfon.png") no-repeat;
+    background-size: cover;
+}
+
+.recept_about {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recept1 {
+    margin-top: 0px;
+}
+
+.recept2 {
+    margin-top: 84px;
+}
+
+.recept3 {
+    margin-top: 123px;
+}
+
+.about h2 {
+    font-family: Italiana;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75.39px;
+    color: #ffffff;
+    
+    
+    
+    
+}
+
+.h2_about {
+    display: flex;
+    margin-left: auto;
+    width: 60%;
+    margin-top: 90px;
+
+}
+
+
+
+
+
+
+.where {
+    height: 704px;
+    width: 100%;
+
+}
+
+.where_content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.where h4 {
+    font-family: Italiana;
+font-size: 48px;
+font-weight: 400;
+line-height: 56.54px;
+color: #ffffff;
+margin-top: 66px;
+
+}
+
+.where h5 {
+    font-family: Inter;
+font-size: 40px;
+font-weight: 400;
+line-height: 48.41px;
+color: #ffffff;
+
+}
+
+.where h6 {
+    font-family: Inter;
+font-size: 24px;
+font-weight: 300;
+line-height: 29.05px;
+color: #ffffff;
+margin-top: 65px;
+}
+
+.text_where {
+    display: flex;
+    justify-content: space-between;
+    text-align:left;
+    margin-top: 44px;
+}
+
+
+
+
+
+
+footer {
+    width: 100%;
+    color: #ffffff;
+    height: 351px;
+}
+
+.footercontent {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.uno h5 {
+    font-family: Inter;
+font-size: 40px;
+font-weight: 200;
+line-height: 48.41px;
+width: 325px;
+}
+
+.uno h6 {
+    font-family: Inter;
+font-size: 20px;
+font-weight: 300;
+line-height: 24.2px;
+margin-top: 16px;
+}
+
+.footercontent h6 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29.05px;
+    
+}
+
+span {
+    font-family: Inter;
+font-size: 20px;
+font-weight: 100;
+line-height: 24.2px;
+
+
+}
+.span {
+    display: flex;
+justify-content: center;
+margin-top: 85px;
+}
+.foter {
+    display: flex;
+    justify-content: space-between;
+    text-align:left;
+}
+
+.formargin {
+    margin-top: 41px;
+}
+
+
+
