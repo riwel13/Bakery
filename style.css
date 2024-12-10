@@ -38,6 +38,7 @@ li {
 
 .header_content a:hover {
   color: #EBAD51;  
+  cursor: pointer;
 }
 
 .shop_header {
@@ -53,6 +54,7 @@ li {
 
 .shop_header:hover {
     background-color: #EBAD51;
+    cursor: pointer;
 }
 
 .inform h1 {
@@ -87,6 +89,7 @@ li {
 
 .card:hover {
     background-image: linear-gradient(90deg, #926B33, #EBAD51);
+    cursor: pointer;
   }
   
 
@@ -225,6 +228,7 @@ nav {
 
 .product_card button:hover {
     background-color: #EBAD51;
+    cursor: pointer;
 }
 
 .firstt {
@@ -400,6 +404,7 @@ margin-top: 65px;
 
 .where_first h6:hover {
     color: #EBAD51;
+    cursor: pointer;
 }
 
 .text_where {
@@ -453,6 +458,7 @@ font-family: Inter;
 
 .footercontent h6:hover {
     color: #EBAD51;
+    cursor: pointer;
 }
 
 span {
@@ -464,6 +470,7 @@ color: #ffffff;
 }
 span:hover {
     color: #EBAD51;
+    cursor: pointer;
 }
 .span {
     display: flex;
